@@ -1,0 +1,198 @@
+/* Navigation Bar responsiveness */
+
+@media screen and (max-width: 768px) {
+
+  .navigation-Hero-container {
+    width: 100%;
+    height: 100vh;
+    background: url(./images/pexels-cottonbro-4904563.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .navigation-container {
+    width: 95%;
+    height: 10%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .navigation {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .bracedev-logo {
+    width: 70px;
+    height: 50px;
+  }
+
+  .bracedev-logo img {
+    width: 70px;
+    height: 50px;
+  }
+
+  .navigation-links {
+    width: 300px;
+    height: 50px;
+    display: none;
+  }
+
+  .navigation-links ul {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+  }
+
+  .navigation-links ul a {
+    color: #ffffff;
+    text-decoration: none;
+  }
+
+  .hamburger-menu {
+    width: 50px;
+    height: 50px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Hero Section start */
+
+  .hero-section {
+    width: 95%;
+    height: 90%;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .hero-projects-templates {
+    width: 100%;
+    height: 100px;
+    top: 45%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 10px;
+  }
+
+  .projects,
+  .templates {
+    width: 130px;
+    height: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+  }
+
+  .templates {
+    background: var(--heading-bg);
+  }
+
+  .templates h2 {
+    color: white;
+    font-size: .7rem;
+  }
+
+  .projects h2 {
+    font-size: .7rem;
+  }
+
+  .hero-footer {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    top: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .explore-container {
+    width: 180px;
+    height: 100%;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #ffffff;
+  }
+
+  .explore-container h2 {
+    font-size: 0.7rem;
+  }
+
+  .explore {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.3);
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .links-arrows {
+    width: 800px;
+    height: 100%;
+    gap: 20px;
+    display: flex;
+  }
+
+  .links {
+    width: 600px;
+    height: 50%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    display: none;
+  }
+
+  .links>div {
+    border-right: 1px solid var(--text-color);
+    text-align: center;
+    width: 150px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .links>div a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 0.7rem;
+  }
+
+  .links>div li {
+    list-style-type: none;
+  }
+
+  .arrows {
+    width: 200px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}
