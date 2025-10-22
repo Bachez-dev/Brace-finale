@@ -338,7 +338,8 @@
 @media screen and (max-width:768px) {
   .testimonial-section {
     width: 100%;
-    height: 75vh;
+    min-height: 75vh;
+    height: auto;
     background: var(--primary-bg);
     padding: 20px 0;
   }
