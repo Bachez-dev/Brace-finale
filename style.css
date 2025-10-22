@@ -478,3 +478,149 @@ body {
   border: none;
   cursor: pointer;
 }
+
+/* Testimonial section */
+
+.testimonial-section {
+  width: 100%;
+  height: 120vh;
+  background: var(--primary-bg);
+  padding: 20px 0;
+}
+
+.testimonial-content {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.testimonial-heading {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.testimonial-heading h1 {
+  font-family: var(--ff-display);
+  font-weight: bolder;
+}
+
+.testimonial-logo {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background: var(--secondary-bg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  font-family: var(--ff-display);
+  font-size: 0.6rem;
+}
+
+.testimonials {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 50px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial-images {
+  width: 300px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.image {
+  width: 100%;
+  height: 250px;
+  background: red;
+  border-radius: 10px;
+}
+
+.image-one {
+  background: url(./images/Andre\ do\ Amaral\ -\ https\ –\ SAVEE.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-two {
+  background: url(./images/A\ futuristic\ figure\,\ her\ skin\ framed\ by\ a\ sleek….jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image-three {
+  background: url(./images/pexels-cottonbro-4904563.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.tracker {
+  width: 10px;
+  height: 100%;
+  background: #D9D9D9;
+  border-radius: 20px;
+}
+
+.testimonial-text {
+  width: 60%;
+  height: 100%;
+}
+
+.testimonial-txt-heading {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px
+}
+
+.testimonial-txt-heading h2 {
+  font-family: var(--ff-display);
+  font-weight: 900;
+}
+
+.testimonial-txt-content {
+  width: 100%;
+  height: 60%;
+  border-radius: 10px;
+  background: #ffffff;
+  padding: 40px;
+}
+
+.testimonial-txt {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  display: none;
+}
+
+.active-txt {
+  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.testimonial-btns {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
