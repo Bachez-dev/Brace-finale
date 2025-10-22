@@ -81,3 +81,130 @@
     gap: 20px;
   }
 }
+
+/* About us responsiveness */
+
+@media screen and (max-width: 768px) {
+  .about-us-container {
+    width: 100%;
+    height: 175vh;
+    background: var(--primary-bg);
+    padding: 20px 0;
+  }
+
+  .about-us-content {
+    width: 95%;
+    height: 100%;
+    margin: 0 auto;
+  }
+
+  .about-us-heading {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .about-us-heading h1 {
+    font-family: var(--ff-display);
+  }
+
+  .about-us-logo {
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    background: var(--secondary-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-family: var(--ff-display);
+    font-size: 0.6rem;
+  }
+
+  .about-us-text {
+    width: 100%;
+    height: 70px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid var(--secondary-bg);
+    border-bottom: 1px solid var(--secondary-bg);
+    margin-bottom: 15px;
+  }
+
+  .about-us-text {
+    font-size: 0.6rem;
+  }
+
+  .about-us-photos {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .context {
+    flex: 1 1 30%;
+    height: 500px;
+    border-radius: 12px;
+  }
+
+  .context-image {
+    width: 100%;
+    height: 300px;
+    background: url(./images/Instagram.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .context-two .context-image {
+    background: url(./images/Andre\ do\ Amaral\ -\ https\ –\ SAVEE.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .context-three .context-image {
+    background: url(./images/↑↑\ HD\ version\ on\ website_\ Three\ individuals\ stand….jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .context-text h2 {
+    font-family: var(--ff-display);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .context-text p {
+    font-size: .7rem;
+    font-weight: 500;
+    margin-bottom: 15px;
+  }
+
+  .context-link h2 {
+    font-size: 0.7rem;
+  }
+
+  .context-link {
+    width: 100%;
+    height: 40px;
+    background: var(--heading-bg);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 7px;
+    padding: 0 20px;
+    margin-top: 20px;
+  }
+}
