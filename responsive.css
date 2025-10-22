@@ -478,8 +478,8 @@
 @media screen and (max-width:768px) {
   .pricing-container {
     width: 100%;
-    height: 180vh;
-    /* height: auto; */
+    min-height: 180vh;
+    height: auto;
     background: #171717;
     padding: 60px 0;
     display: flex;
