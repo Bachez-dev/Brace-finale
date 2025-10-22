@@ -87,7 +87,7 @@
 @media screen and (max-width: 768px) {
   .about-us-container {
     width: 100%;
-    height: 175vh;
+    height: auto;
     background: var(--primary-bg);
     padding: 20px 0;
   }
