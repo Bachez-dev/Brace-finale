@@ -336,3 +336,145 @@ body {
   padding: 0 20px;
   margin-top: 20px;
 }
+
+/* Templates Showcase */
+
+.templates-showcase-container {
+  width: 100%;
+  height: 110vh;
+  background: #171717;
+  padding: 20px 0;
+}
+
+.templates-showcase-content {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+.templates-heading {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.templates-text {
+  width: 50%;
+  height: 60px;
+}
+
+.templates-text h2 {
+  font-family: var(--ff-display);
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.templates-text p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.templates-btn-heading {
+  width: 30%;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.templates-btn-heading h1 {
+  font-family: var(--ff-display);
+}
+
+.templates-btn-logo {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background: #DEDEDE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-bg);
+  font-weight: 900;
+  font-family: var(--ff-display);
+  font-size: 0.6rem;
+}
+
+.Templates {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 20px;
+  padding-top: 10px;
+}
+
+.template {
+  flex: 1 1 100%;
+  height: 100%;
+}
+
+.templates-line {
+  width: 100%;
+  height: 10px;
+  border-radius: 10px;
+  background: red;
+}
+
+.template-content {
+  width: 100%;
+  height: 90%;
+  margin-top: 20px;
+}
+
+.template-image {
+  width: 100%;
+  height: 85%;
+  background: url(./templates/template\ one.PNG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+.template-two .template-image {
+  background: url(./templates/template\ two.PNG);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.templates-details {
+  width: 100%;
+  height: 9%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.templates-details h2 {
+  font-size: 0.8rem;
+  font-family: var(--ff-display);
+  font-weight: 900;
+}
+
+.templates-details h1 {
+  font-size: 1rem;
+  font-family: var(--ff-display);
+  font-weight: 900;
+}
+
+.templates-details button {
+  padding: 10px 30px;
+  border-radius: 20px;
+  font-size: 0.6rem;
+  font-family: var(--ff-display);
+  font-weight: 900;
+  border: none;
+  cursor: pointer;
+}
