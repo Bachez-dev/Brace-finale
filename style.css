@@ -624,3 +624,149 @@ body {
   justify-content: space-between;
   align-items: center;
 }
+
+/* Pricing section */
+
+.pricing-container {
+  width: 100%;
+  height: 105vh;
+  background: #171717;
+  padding: 20px 0;
+}
+
+.pricing-content {
+  width: 95%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.pricing-heading {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+}
+
+.pricing-text {
+  width: 50%;
+  height: 60px;
+}
+
+.pricing-text h2 {
+  font-family: var(--ff-display);
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+.pricing-text p {
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+
+.pricing-btn-heading {
+  width: 30%;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.pricing-btn-heading h1 {
+  font-family: var(--ff-display);
+}
+
+.pricing-btn-logo {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  background: #DEDEDE;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary-bg);
+  font-weight: 900;
+  font-family: var(--ff-display);
+  font-size: 0.6rem;
+}
+
+.pricing-cards {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.cards {
+  flex: 1 1 30%;
+  height: 400px;
+  background: white;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.card-heading {
+  width: 100%;
+  height: 150px;
+  background: red;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.package-type{
+  width: 70px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  font-size: 0.6rem;
+  background: var(--heading-bg);
+  color: #ffffff;
+}
+
+.package-price{
+  font-size: 2rem;
+  font-family: var(--ff-display);
+  color: #ffffff;
+}
+
+.package-features {
+  width: 100%;
+  height: 200px;
+  padding-top: 20px;
+}
+
+.package-features p {
+  font-size: 0.8rem;
+  line-height: 2;
+  margin-left: 20px;
+}
+
+/* .package-features p::before {
+  content: "✔";
+  margin-left: -10px;
+} */
+
+.pricing-card-button {
+  width: 100%;
+  height: 30px;
+  background: var(--secondary-bg);
+  border-radius: 5px;
+}
+
+.pricing-card-button button {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--ff-display);
+  color: #ffffff;
+  border-radius: 5px;
+}
