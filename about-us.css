@@ -23,18 +23,6 @@ body {
   font-family: var(--ff-tight);
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: 'Inter', sans-serif;
-  color: #fff;
-  background: #b55b31;
-}
-
 .about-section {
   width: 100%;
   display: flex;
@@ -43,7 +31,7 @@ body {
   height: 100vh;
   overflow: hidden;
   padding: 5px;
-
+  background: #b55b31;
 }
 
 /* LEFT SIDE - CONTENT */
@@ -177,7 +165,7 @@ body {
   padding: 40px 0;
 }
 
-.about-us-content{
+.about-us-content {
   width: 95%;
   height: 100%;
   display: flex;
@@ -187,20 +175,20 @@ body {
   gap: 20px;
 }
 
-.about-us-image{
+.about-us-image {
   flex: 1;
   height: 100%;
   border-radius: 10px;
 }
 
-.about-us-image img{
+.about-us-image img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
 
-.about-us-text{
+.about-us-text {
   flex: 1;
   height: 100%;
   border-radius: 10px;
@@ -208,39 +196,39 @@ body {
   padding: 60px;
 }
 
-.about-us-text-content{
+.about-us-text-content {
   width: 90%;
   height: 100%;
 }
 
-.about-us-text h1{
+.about-us-text h1 {
   width: 30ch;
   line-height: 1.5;
 }
 
-.about-us-text p{
+.about-us-text p {
   margin-top: 20px;
   font-weight: 300;
   line-height: 1.5;
   font-size: 0.8rem;
 }
 
-.socials{
+.socials {
   width: 100%;
   height: 30%;
   margin-top: 3rem;
 }
 
-.socials h2{
+.socials h2 {
   font-size: 1rem;
 }
 
-.socials hr{
+.socials hr {
   width: 50px;
   margin-top: 10px;
 }
 
-.social-icons{
+.social-icons {
   width: 100%;
   height: 70%;
   display: flex;
@@ -260,7 +248,7 @@ body {
   padding: 10px 0;
 }
 
-.team-content{
+.team-content {
   width: 95%;
   height: 100%;
   display: flex;
@@ -269,28 +257,28 @@ body {
   gap: 10px;
 }
 
-.team-member-names{
+.team-member-names {
   width: 20%;
   height: 100%;
   color: #fff;
 }
 
-.hamburger{
+.hamburger {
   width: 30px;
   height: 30px;
 }
 
-.names{
+.names {
   width: 100%;
   height: 70%;
   line-height: 2;
 }
 
-.names ul{
+.names ul {
   list-style-type: none;
 }
 
-.message{
+.message {
   width: 100%;
   height: 20%;
   display: flex;
@@ -298,47 +286,46 @@ body {
   font-size: 0.8rem;
 }
 
-.message p{
+.message p {
   width: 15ch;
 }
 
-.team-member-photos{
+.team-member-photos {
   width: 80%;
   height: 100%;
   display: flex;
   gap: 5px;
 }
 
-.photo{
+.photo {
   flex: 1 1 20%;
   background: blue;
 }
 
-.photo-one{
+.photo-one {
   background: url(./images/Instagram.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.photo-two{
+.photo-two {
   background: url(./images/A\ futuristic\ figure\,\ her\ skin\ framed\ by\ a\ sleek….jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.photo-three{
+.photo-three {
   background: url(./images/652d0bb6-a183-4c18-a399-37848479e93d.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
-.photo-four{
+.photo-four {
   background: url(./images/6a2fbc07-323a-494b-b8f1-e4c737f6a7b1.jpg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
